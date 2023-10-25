@@ -1,0 +1,571 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  /* home css start here */
+}
+body{
+  background-color: rgb(255, 253, 253);
+}
+nav{
+  background-color: rgb(31, 30, 30);
+  transform: rotate(0%);
+  transform-origin: center bottom;
+  z-index: 0;
+}
+.ulist{
+  padding-top: 10px;
+  font-size: 25px;
+  list-style-type: none;
+  height: 48px;
+  width: auto;
+  margin: auto;
+  display: flex;
+  padding-right: 20px;
+    flex-direction: row-reverse;
+}
+.alist{
+  text-decoration: auto;
+  margin: 16px;
+  color: aliceblue;
+    
+    text-decoration: auto;
+    margin: 16px;
+}
+
+.ilist{}
+.poo{
+  text-align: center;
+    font-size: 100px;
+    letter-spacing: 60px;
+    font-weight: 900;
+    font-family: auto;
+    background-image: url('./image/back1.jpg');
+    background-size: cover;
+    background-position:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.dia{
+  background-color: antiquewhite;
+display: flex;
+justify-content: space-between;
+padding-top: 10%;
+padding-bottom: 10%;
+}
+
+.div0{
+  margin-top: 4%;
+  background-color: rgb(255, 255, 255);
+  height: 260px;
+  width: 50%;
+  
+}
+.div1{
+  width: 50%;
+  
+}
+.img00{
+  margin-left: 20%;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: all ease 1s;
+  
+}
+.div1:hover .img00{
+  scale: 1.2;
+}
+.h0{
+  font-size: 40px;
+    color: black;
+    font-family: cursive;
+    word-spacing: 10px;
+    text-align: center;
+  color: black;
+}
+.h0:hover{
+  text-shadow: 5px 5px 10px #000;
+}
+.dib{
+  height: 15px;
+  width: 100%;
+  background-color: #000;
+  transform: rotate(359deg);
+    transform-origin: left;
+    z-index: -1;
+}
+.dic{
+  background-color: burlywood;
+  flex-direction: column;
+  display: flex;
+}
+.p00{
+  background-color: rgb(165, 125, 72);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+}
+.p001{
+  background-color: rgb(196, 142, 72);
+  text-align: center;
+  font-size: 50px;
+  font-family: emoji;
+}
+.p002{
+  background-color: rgb(248, 163, 51);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dic{
+  display: flex;
+justify-content: space-between;
+}
+.did{height: 15px;
+  width: 100%;
+  background-color: #000;
+  transform: rotate(359deg);
+    transform-origin: right;
+    z-index: -1;
+  }
+  .div2{
+    background-color: wheat;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }  
+  .die{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .dif{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.im0{
+  height: 40%;
+  border-radius: 5%;
+
+}
+.b0001{
+  border-radius: 5%;
+  border: none;
+  width: 21%;
+  height: 5%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-left: 15px;
+background-color: #61dafb;
+transition: all ease 0.5s;
+}
+.b0001:hover{
+  box-shadow: 8px 8px 5px #000;
+}
+/* book1 css start here  */
+.body0{
+  background-color: rgb(0, 0, 0);
+
+}
+.dii1{
+  background-color:#575548;
+  height: 300px;
+  width: auto;
+ 
+}
+.dii10 {
+  width: auto;
+}
+.p2{
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 65px;
+  font-family: cursive;
+  margin-left: 15PX;
+  background-image: url(./image/sky.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.p3{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family:cursive ;
+}
+.p4{
+  text-align: center;
+  font-size: 50px;
+  
+  font-family: auto;
+  font-weight: 900;
+  background-image: url(./image/sky.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.dii11{
+  background-color: rgb(90, 120, 122);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.p5{
+
+  font-size: 50px;
+  font-family: emoji;
+  text-align: end;
+  margin-right: 10px;
+}
+.p6{
+  font-size: 35px;
+  text-align: center;
+  font-family: serif;
+  font-weight: 900;
+}
+.p7{
+  font-size: 45px;
+  margin-top: 0px;
+  margin-left: 15px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.img0{
+ width: 71%;
+  border-radius: 16%;
+}
+.dii2{
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+}
+.dii0{
+  background-color: #d9e9e9;
+  
+  margin-left: 20%;
+  padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+.p0{
+  font-size: 45px;
+}
+.p01{
+  font-size: 28px;
+  margin-top: -40px;
+}
+.p02{
+  font-size: 20px;
+}
+.p03{
+  font-size: 18px;
+  letter-spacing: 10px;
+  font-weight: 800;
+}
+.p1{
+  font-family: cursive;
+}
+/* Book2 css start here*/
+.b00{
+  background-color: #fff400;
+}
+.diiA{
+  background-color:#b3b3b3;
+  height: 300px;
+  width: auto;
+ 
+}
+.pA{
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 65px;
+  font-family: cursive;
+  margin-left: 15PX;
+  background-image: url(./image/sky2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.pB{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family:cursive ;
+}
+.pC{
+  text-align: center;
+  font-size: 50px;
+  
+  font-family: auto;
+  font-weight: 900;
+  background-image: url(./image/sky2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.diia{
+  background-color: rgb(249 244 249);;
+  
+  margin-right: 22%;
+  padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+/* book3 csss start here  */
+.b01{
+  background-color: rgb(37 80 89);;
+}
+.diiP{
+  background-color:#fffdfd;
+  height: 300px;
+  width: auto;
+}
+.pE{
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 65px;
+  font-family: cursive;
+  margin-left: 15PX;
+  background-image: url(./image/sky3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.pQ{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family:cursive ;
+}
+.pW{
+  text-align: end;
+  font-size: 50px;
+  
+  font-family: auto;
+  font-weight: 900;
+  background-image: url(./image/sky3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.di01{
+  background-color: rgb(187, 197, 202);
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+
+/* book4 csss start here  */
+.b000{
+  padding-left: 20%;
+  background-color: #000000b5;
+}
+.diiR{
+  background-color:#fffdfd;
+  height: 300px;
+  width: auto;
+}
+.pX{
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 65px;
+  font-family: cursive;
+  margin-left: 15PX;
+  background-image: url(./image/sky4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.pY{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family:cursive ;
+}
+.pZ{
+  text-align: end;
+  font-size: 50px;
+  
+  font-family: auto;
+  font-weight: 900;
+  background-image: url(./image/sky4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.dii00{
+  background-color: rgb(202 255 255);
+  padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+/* footer css start here  */
+.d09{
+  color: aliceblue;
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 5px;
+  margin-top: -16px;
+}
+.pi2{
+  font-size: 20px;
+}
+.pi3{
+  margin-top: -15px;
+  font-size: 10px;
+}
+@media screen and (max-width: 480px) {
+  
+  .poo {
+    letter-spacing: -10px;
+    text-align: center;
+    font-weight: 100;
+    font-family: auto;
+    
+}
+  
+  
+  .dia {
+   flex-direction: column-reverse; 
+}
+.div0 {
+  width: 100%;
+}
+.div1 {
+ width: 100%;
+}
+.img00{
+margin-left: 0px;
+width: -webkit-fill-available;
+}
+.h0{
+  font-size: 30px;
+    color: black;
+    font-family: cursive;
+    word-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+.div2 {
+flex-direction: column;
+}
+.b0001 {
+  letter-spacing: 0px;
+  width: 25%;
+  height: 10%;
+
+
+}
+.im0 {
+  margin-left: 50px;
+}
+.die {
+  width: 100%;
+  height: 80vh;
+}
+.dif {
+  width: 100%;
+  height: 80vh;
+}
+.p2 {
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 10px;
+
+}
+.pA {
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 10px; 
+}
+.pB{
+  font-weight: 100;
+  margin-top: -40px;
+}
+.pC{
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 10px; 
+}
+.pE{
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 10px;  
+}
+.pX{
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.pZ{
+  font-weight: 100;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+
+}
