@@ -521,7 +521,8 @@ flex-direction: column;
 
 }
 .im0 {
-  margin-left: 50px;
+  height: 25vh;
+    margin-left: 10px;
 }
 .die {
   width: 100%;
